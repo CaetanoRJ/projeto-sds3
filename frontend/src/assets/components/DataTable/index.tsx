@@ -3,6 +3,9 @@ import React from "react";
 const DataTable = () => {
   return (
     <div className="table-responsive">
+      <div className="py-3">
+        <h2 className="text-primary"> Todas as vendas</h2>
+      </div>
       <table className="table table-striped table-sm">
         <thead>
           <tr>
